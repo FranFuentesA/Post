@@ -27,6 +27,6 @@ public class MessagePost extends Post
     }     
 
     public void printShortSummary(){       
-        System.out.println("Esto es un post de texto creado" + getUsername() + "donde" + getUsername() +" es el autor del post y consigue que funcione");
+        System.out.println("Esto es un post de texto creado" + getUsername());
     }
 }
