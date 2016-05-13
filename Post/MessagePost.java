@@ -8,23 +8,25 @@ import java.util.ArrayList;
 
 public class MessagePost extends Post
 {
-    private String message;  
+    private String message; 
 
     /**
      * Constructor for objects of class MessagePost
      */
     public MessagePost(String author, String text)
     {
-       super(author);     
-       this.message = text;            
+        super(author);     
+        this.message = text;            
     }      
-    
+
     /**
      * Metodo que devuelve el mensaje del post
      */
     public String getText(){
         return message;
-    }      
-    
-}
+    }     
 
+    public void printShortSummary(){       
+        System.out.println("Esto es un post de texto creado" + getUsername() + "donde" + getUsername() +" es el autor del post y consigue que funcione");
+    }
+}
