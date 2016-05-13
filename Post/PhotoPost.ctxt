@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=author\ filename\ caption
+comment0.target=PhotoPost(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ MessagePost\r\n
+comment1.params=
+comment1.target=java.lang.String\ getImageFile()
+comment1.text=\r\n\ Meotdo\ que\ devuelve\ el\ nombre\ del\ archivo\r\n
+comment2.params=
+comment2.target=java.lang.String\ getCaption()
+comment2.text=\r\n\ Metodo\ que\ devuelve\ el\ mensaje\ del\ post\r\n
+numComments=3
