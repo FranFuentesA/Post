@@ -6,10 +6,9 @@ import java.util.ArrayList;
  * @version (a version number or a date)
  */
 
-public class MessagePost extends Post
+public class MessagePost extends CommentsPost
 {
-    private String message; 
-    private ArrayList<String> comments;
+    private String message;  
     
     /**
      * Constructor for objects of class MessagePost
@@ -17,17 +16,8 @@ public class MessagePost extends Post
     public MessagePost(String author, String text)
     {
         super(author);     
-        this.message = text;  
-        comments = new ArrayList<>();
-    }      
-    
-  
-    /**
-     * Metodo para añadir un comentario al post
-     */
-    public void addComment(String text){
-        comments.add(text);
-    }
+        this.message = text;         
+    }    
     
     /**
      * Metodo que devuelve el mensaje del post

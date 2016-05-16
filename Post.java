@@ -69,7 +69,7 @@ public class Post
         long time = System.currentTimeMillis() - getTimeStamp();
         info += username + "\n=====================\n" + "Posted: ";
         info += timeString(time);      
-        info += "_____________________\nLikes: " + likes + "\n=====================\n\n";
+        info += "_____________________\nLikes: " + likes + "\n=====================\n\n";        
         System.out.println(info);
     }
 
